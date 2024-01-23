@@ -1,0 +1,60 @@
+body{
+    background-color: #D3D3D3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #2fff00;
+    display:flex;
+    position:relative;
+    height: 60px;
+}
+
+header a{
+    display: inline-block;
+}
+
+header img{
+    max-width: 55px;
+}
+
+.redsocial{
+    position: absolute;
+    right: 10px;
+}
+
+.subtitulo{
+    display: block;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.produtos{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.produto{
+    border: black 1px solid;
+    display: inline-block;
+    margin: 3px 5px;
+    min-width: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    margin-left: 4px;
+}
+
+h1{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+}
